@@ -34,13 +34,13 @@ fi
 . "$HELPER"
 
 DEVICE_VENDOR=$VENDOR
-VENDOR_COMMON=oppo
+VENDOR_COMMON=gionee
 
 # Initialize the helper for common device
 setup_vendor "$DEVICE_COMMON" "$VENDOR_COMMON" "$LINEAGE_ROOT" true
 
 # Copyright headers and common guards
-write_headers "bacon find7 n3"
+write_headers "bacon e7 n3"
 
 write_makefiles "$MY_DIR"/proprietary-files.txt
 
