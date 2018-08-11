@@ -32,7 +32,7 @@ fi
 . "$HELPER"
 
 DEVICE_VENDOR=$VENDOR
-VENDOR_COMMON=oppo
+VENDOR_COMMON=gionee
 
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
