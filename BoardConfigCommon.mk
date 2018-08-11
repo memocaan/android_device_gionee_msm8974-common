@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-# inherit from OPPO common
--include device/oppo/common/BoardConfigCommon.mk
+# inherit from GIONEE common
+-include device/gionee/common/BoardConfigCommon.mk
 
-PLATFORM_PATH := device/oppo/msm8974-common
+PLATFORM_PATH := device/gionee/msm8974-common
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
@@ -148,4 +148,4 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 # Inherit from the proprietary version
-include vendor/oppo/msm8974-common/BoardConfigVendor.mk
+include vendor/gionee/msm8974-common/BoardConfigVendor.mk
