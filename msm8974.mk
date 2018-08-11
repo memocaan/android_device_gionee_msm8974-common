@@ -228,7 +228,7 @@ PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf
 
 # Call the proprietary setup
-$(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
+$(call inherit-product, vendor/gionee/msm8974-common/msm8974-common-vendor.mk)
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/gionee/common/common.mk)
