@@ -30,8 +30,8 @@ LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-ifeq ($(TARGET_DEVICE),bacon)
-LOCAL_MODULE       := init.recovery.bacon.rc
+ifeq ($(TARGET_DEVICE),e7)
+LOCAL_MODULE       := init.recovery.e7.rc
 else
 LOCAL_MODULE       := init.recovery.qcom.rc
 endif
@@ -42,8 +42,8 @@ LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-ifeq ($(TARGET_DEVICE),bacon)
-LOCAL_MODULE       := ueventd.bacon.rc
+ifeq ($(TARGET_DEVICE),e7)
+LOCAL_MODULE       := ueventd.e7.rc
 else
 LOCAL_MODULE       := ueventd.qcom.rc
 endif
